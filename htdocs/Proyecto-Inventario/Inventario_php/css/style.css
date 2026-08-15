@@ -1,0 +1,69 @@
+/* Fondo general */
+body {
+    background-image: url('../img/fondo.jpg'); /* ajusta la ruta según tu carpeta */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo empresa */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px; /* ajusta tamaño */
+}
+
+/* Encabezados */
+h2 {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin-bottom: 15px;
+}
+
+/* Formulario */
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 14px;
+    padding: 6px;
+}
+
+/* Botón */
+.btn-primary {
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+/* Tabla inventario */
+.table {
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.table th, .table td {
+    padding: 6px;
+    text-align: center;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Contenedor de tabla */
+.table-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
